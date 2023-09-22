@@ -1,11 +1,9 @@
 //HW 2
-let num1 = 1;
-let num2 = 0;
-let num3 = 3;
-let num4 = 6;
-let num5 = 9;
-let message = `${num1} ${num2} ${num3} ${num4} ${num5}`;
-console.log(message);
+let num = 10369;
+let string = String(num);
+let newString = `${string[0]} ${string[1]} ${string[2]} ${string[3]} ${string[4]}`;
+//let newString = string.split("").join(" ");
+console.log(newString);
 //
 let x = 10;
 let y = 5;
@@ -26,3 +24,4 @@ function registration() {
     }
 }
 registration();
+
